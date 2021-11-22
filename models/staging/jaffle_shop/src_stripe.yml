@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: fundamentals
+    description: A clone of a Postgres application database.
+    database: tarea3-cis4400
+    tables:
+      - name: stripe_payments
+        description: Raw stripe payment data.
